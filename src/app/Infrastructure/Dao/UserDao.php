@@ -34,10 +34,6 @@ final class UserDao extends Dao
         $statement->bindValue(':email', $email, PDO::PARAM_STR);
         $statement->bindValue(':password', $hashedPassword, PDO::PARAM_STR);
         $statement->execute();
-        // var_dump("name", $name);
-        // var_dump("email", $email);
-        // var_dump("password", $password);
-        // var_dump("execute", $statement->execute()); // string(7) "execute" bool(false)
     }
 
     /**

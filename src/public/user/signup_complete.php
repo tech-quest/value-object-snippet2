@@ -1,5 +1,4 @@
 <?php
-require_once __DIR__ . '/../../app/Infrastructure/Dao/UserDao.php';
 require_once __DIR__ . '/../../vendor/autoload.php';
 require_once __DIR__ . '/../../app/Infrastructure/Redirect/redirect.php';
 use App\Domain\ValueObject\UserName;
