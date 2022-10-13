@@ -22,7 +22,7 @@ final class HashedPassword
      */
     public function __construct(string $value)
     {
-        if ($value === false) {
+        if ($value === "") {
             throw new Exception(self::INVALID_MESSAGE);
         }
 
